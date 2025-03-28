@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:noteapp/Views/widgets/Card.dart';
 import 'package:noteapp/Views/widgets/NotesAppBar.dart';
 
 class NotesViewBody extends StatelessWidget {
@@ -10,6 +11,7 @@ class NotesViewBody extends StatelessWidget {
       child: Column(
         children: [
           NotesAppBar(),
+          Cardd(),
         ],
       ),
     );
